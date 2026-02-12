@@ -1,0 +1,29 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.ipynb_checkpoints/
+
+# Dados (mas não os arquivos .dvc!)
+/data/raw/*.csv
+/data/raw/*.xlsx
+/data/raw/*.txt
+/data/processed/*.csv
+/data/processed/*.xlsx
+/data/final/*.csv
+/data/final/*.xlsx
+
+# Modelos (mas não os arquivos .dvc!)
+/models/*.pkl
+/models/*.h5
+/models/*.joblib
+
+# Sistema
+.DS_Store
+*.swp
+*.swo
